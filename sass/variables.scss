@@ -1,0 +1,20 @@
+// Color Varables
+$border-color: #e6e6e6;
+$primary-color: #5cb85c;
+$transparent-black: rgba(0, 0, 0, 0.5);
+$body-background: rgb(240,242,245);
+$box-shadow: rgba(168, 155, 155, 0.1);
+$my-text-color: #666562;
+$lightest-black: rgb(233, 233, 233);
+$light-black: rgb(214, 213, 213);
+
+
+
+
+
+// --------------------------- Border Part of Each Part -----------------
+.my-section-border{
+    border: 1px solid $border-color;
+    background-color: white;
+    border-radius: 10px;
+}
