@@ -1,0 +1,90 @@
+@import "variables.scss";
+@import "navigation.scss";
+@import "top-informant-child.scss";
+.main-section-all-questions{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.all-questions{
+    width: 75%;
+}
+.top-rated{
+    width: 20%;
+}
+
+//All Questios Part
+
+.all-question-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.all-question-heading span{
+    font-size: 25px;
+}
+.all-question-heading button{
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+.total-question-detail{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+// all-question-cards
+
+.all-question-one-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-top: 2px solid $border-color;
+    padding: 10px 0;
+}
+.vating-part{
+    width: 15%;
+    padding-top: 2%;
+    box-sizing: border-box;  
+}
+.vating-part span{
+    display: block;
+    text-align: right;
+    margin: auto 0;
+}
+.all-question-crad-detail{
+    width: 80%;
+    text-align: justify;
+}
+.question-card{
+    text-decoration: none;
+    font-size: 20px;
+}
+.all-question-crad-detail p{
+    margin: 5px 0;
+}
+.card-username{
+    text-decoration: none;
+}
+.all-question-uploader-information{
+    float: right;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.card-username{
+    margin-left: 8px;
+}
+.card-uploader-profile{
+    width: 30px;
+    height: 30px;  
+}
+.card-uploader-pic{
+    width: 100%;
+    border-radius: 50%;
+}
+@import "footer.scss";
+@import "media-quries.scss";

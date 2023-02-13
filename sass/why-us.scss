@@ -1,0 +1,81 @@
+@import "variables.scss";
+@import "navigation.scss";
+@import "top-informant-child.scss";
+@import "media-quries.scss";
+@import "footer.scss";
+
+        /* About Section */
+            
+        #about{
+                width: 100%;
+                background: white;
+                padding-top: 35px;
+            }
+            #about #super{
+                width: 85%;
+                display: flex;
+                margin: 0 auto;
+            }
+            #about #super #supertext{
+                margin-top: 15px;
+                width: 66%;
+                
+            }
+            #about #super #superimg{
+                width: 31%;
+                margin-left: 3%;
+                text-align: center;
+            }
+            #about #super #superimg #simg{
+                padding-top: 100%;
+                background: url(../images/hassaanKhokhar.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            #about #super #superimg #sname{
+                margin-top: 15px;
+                color: $primary-color;
+            }
+            /* Media Query About */
+            @media only screen and (max-width: 270px){
+                #about #super #superimg #sname{
+                        font-size: 0.7em;
+                    }
+                    #about #super #superimg #sname{
+                        font-size: 0.55em;
+                    }
+                }
+        
+                /* Developer Whatsapp */
+            
+                #design{
+                    width: 100%;
+                    background: whitesmoke;
+                    padding: 50px 0;
+            
+                }
+                #design #desheading{
+                    display: flex;
+                    justify-content: center;
+                    text-transform: capitalize;
+                    text-align: center;
+                    color: $primary-color
+                }
+                #design #destext{
+                    text-align: center;
+                    width: 80%;
+                    margin: 15px auto;
+                }
+                #design #btn{
+                    display: flex;
+                    justify-content: center;
+                }
+                #design #btn a{
+                    background: $primary-color;
+                    color: white;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 6px 8px;
+                }
+               
+           

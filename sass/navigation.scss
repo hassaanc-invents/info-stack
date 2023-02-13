@@ -1,0 +1,114 @@
+@import "variables.scss";
+// For Every Page
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: $body-background;
+    box-sizing: border-box;
+}
+// For Every Page Ends
+nav{
+    border-bottom: 1px solid $border-color;
+    padding: 1% 0;
+    display: flex;
+    height: 50px;
+    background-color: white;
+
+    box-shadow: 1px 3px 10px #aaaaaa;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    background: url(../images/nav-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.res-menu{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    color: $my-text-color;
+}
+.menu-items{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.menu-items ul{
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.menu-items ul li a{
+    text-decoration: none;
+    color: $my-text-color;
+}
+.search{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 0 2%;
+    border: 0.5px solid $border-color;
+    border-radius: 50px;
+}
+.search input{
+    border: none !important;
+    border-color: transparent !important;
+    width: 80%;
+}
+.search label i{
+    cursor: pointer;
+}
+.search input:focus{
+    outline: none;
+}
+.nav-buttons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.signup, .login{
+    color: $my-text-color;
+    padding: 3.5% 9%;
+    text-align: center;
+
+    text-decoration: none;
+}
+.signup{
+    background-color: $primary-color;
+    color: white;
+    border: 0.5px solid $border-color;
+    border-radius: 10px;
+}
+.nav-toggle{
+    display: none;
+}
+.nav-toggle-2nd{
+    display: none;
+}
+// Extra in Navigation
+.extra-top-respondent{
+    display: none;
+}
+.extra-signup{
+    display: none;
+}

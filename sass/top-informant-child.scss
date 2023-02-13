@@ -1,0 +1,55 @@
+@import "variables.scss";
+
+@media only screen and(min-width:680px){
+    .top-informant{
+        position: fixed;
+        top: 60;
+        height: 67vh;
+        overflow-y: auto;
+    }
+.top-informant:hover{
+    border-top: 1px solid $border-color;
+}
+.top-informant::-webkit-scrollbar{
+    width: 10px;  
+}
+.top-informant:hover::-webkit-scrollbar-thumb{
+    background-color: $light-black;
+    border-radius: 10px;
+}
+}
+.top-informant-heading{
+    display: flex;
+    align-items: center;
+    background-color: $lightest-black;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.top-informant-heading span{
+    margin-left: 10px;
+}
+.top-informant-person{
+    display: flex;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 10px 10px;
+    
+}
+.top-informant-person:hover{
+    background-color: $lightest-black;
+    border-radius: 5px;
+}
+.informant-profile-pic{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.informant-name{
+    margin-left: 10px;
+}
+.informant-name a{
+    text-decoration: none;
+    color: $my-text-color;
+}

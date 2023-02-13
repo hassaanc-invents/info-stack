@@ -1,0 +1,420 @@
+@import "variables.scss";
+// Most Populer
+@media only screen and(max-width:1317px){
+    .main-section-all-questions{
+        width: 82%;
+    }
+}
+// Extra Media Query For Main Part and Footer ETC
+@media only screen and(max-width:1200px){
+    .main-section{
+        width: 90%;
+    }
+    // Contact-Us Page
+    .main-conatiner{
+        width: 85%;
+    }
+}
+@media only screen and(max-width:1040px){
+    // Slider
+    .create-post{
+        width: 45%;
+        left: 27.5%;
+    }
+    .main-section{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .main-section-all-questions{
+        width: 88%;
+    }
+    // Login Page
+    .login-container{
+        width: 45%;
+    }
+    // Contact-Us Page
+    .main-conatiner{
+        width: 90%;
+    }
+}
+// ------------------------------------Mini Laptop-------------------------------
+@media only screen and(max-width:960px){
+    // Signup-page
+    .signup-main-container{
+        width: 55%;
+    }
+    // Contact Us Page
+    .main-contact-data{
+        width: 50%;
+    }
+    // Login Page
+    .login-container{
+        width: 50%;
+    }
+    .login-input{
+        width: 96.5%;
+    }
+    // All-Questions-Container
+    .main-section-all-questions{
+        width: 90%;
+    }
+    // Navigation Start
+    .container{
+        width:96%;
+    }
+    .signup, .login{    
+        padding: 3% 8%;
+    }
+    .menu-items{
+        display: block;
+        width: 100%;
+        position: absolute;
+        left: -100%;
+        top: 100%;
+        background: $transparent-black;
+        transition: all 0.5s;
+        border-right: 0.5px solid $border-color;
+        border-bottom: 0.5px solid $border-color;
+    }
+    .show{
+        left: 0%;
+    }
+    .nav-toggle-first{
+        display: none;
+    }
+    .nav-toggle-2nd{
+        display: block;
+    }
+    .menu-items ul{
+        width: 100%;
+        text-transform: uppercase;
+        color: inherit;
+        text-align: left;
+        line-height: 30px;
+        display: block;
+        margin-left: 12%;
+        text-align: left;    
+    }
+    .menu-items ul li a{
+        color: white;
+    }
+    .search{
+        width: 90%;
+        height: 10vh;
+        margin-left: 2.5%;
+        margin-bottom: 5vh;  
+        background-color: white;
+    }
+    .search form{
+        width: 100%;
+    }
+    .search form label{
+        width: 25%;
+    }
+    .search form input{
+        width: 95%;
+    }
+    .menu-items ul li{
+        margin-left: -15%;
+    }
+    .logo{
+        width: 20%;
+    }
+    .res-menu{
+        width: 70%;
+    }
+    .nav-buttons{
+        width: 50%;
+        margin-left: auto;
+    }
+    .nav-toggle{
+        width: 4%;
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+        margin-right: 30px;
+        margin-left: 10px;
+        margin-top: .3%;
+        align-self: center;
+        color: $primary-color;
+    }
+    // Main Page Start
+    .main-section{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .top-questions{
+        width: 65%;
+    }
+    .suggest-problems{
+        display: none;
+    }
+}
+// ------------------------------------------Tab View---------------------------
+@media only screen and(max-width:880px){
+    // Signup-page
+    .signup-main-container{
+        width: 65%;
+    }
+    // Slider
+    .create-post{
+        width: 55%;
+        left: 22.5%;
+    }
+    // Contact Us Page
+    .contact-child-controller{
+        display: block;
+    }
+    .main-contact-data{
+        width: 65%;
+        margin: 0 auto;
+    }
+    .location{
+        width: 65%;
+        margin: 80px auto;
+    }
+    // All-Questions-Container
+    .all-questions{
+        width: 68%;
+    }
+    // Navigation
+    .container{
+        width:98%;
+    }
+    .search form input{
+        width: 90%;
+        background: transparent;
+    }
+    // Home Page
+    .main-section{
+        width: 90%;
+    }
+    // Footer
+    .footer-limited{
+        width: 45%;
+    }
+    .footer-logos{
+        width: 35%; 
+    }
+}
+@media only screen and(max-width:740px){
+    .all-questions{
+        width: 65%;
+    }
+}
+// --------------------------------Mobile View-----------------------------
+@media only screen and(max-width:680px){
+    
+    // Slider
+    .create-post{
+        width: 65%;
+        left: 17.5%;
+    }
+    // Login Page
+    .login-container{
+        width: 60%;
+    }
+    .login-input{
+        width: 95.5%;
+    }
+    // Contact Us Page
+    .main-contact-data{
+        width: 90%;
+
+    }
+    .location{
+        width: 90%;
+    }
+    // All Questions Page
+    .all-questions{
+        margin: 0 auto;
+        width: 90%;
+    }
+    // Navigation Bar
+    .search{
+        height: 40px;  
+    }
+    .search form input{
+        width: 90%;
+    }
+    // Post Question
+    .post-question-content input{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    // Home Page
+    .top-rated{
+        display: none;
+    }
+    .extra-top-respondent{
+        display: block;
+    }
+    .top-questions{
+        width: 90%;
+        margin: 0 auto;
+    }
+    // Write Answer
+    .write-answer form{
+        width: 95%;
+        margin: 0 auto;
+    }
+    // Footer
+    .footer-limited{
+        width: 60%;
+    }
+    .footer-logos{
+        width: 40%;  
+    }
+    .vating-part{
+        width: 20%;
+    }
+    .all-question-crad-detail{
+        width: 75%;
+    }
+}
+// --------------------------------Small Mobile----------------------------
+@media only screen and(max-width:480px){
+    // Signup-page
+    .signup-main-container{
+        width: 70%;
+    }
+    // Slider
+    .create-post{
+        width: 75%;
+        left: 12.5%;
+    }
+    // Login Page
+    .login-container{
+        width: 70%;
+    }
+    // ------------
+    .container{
+        width:95%;
+    }
+    .nav-toggle{ 
+        font-size: 20px;
+    }
+    .signup, .login{
+        padding: 4% 9%;  
+    }
+    .logo{
+        width: 30%;
+    }
+    .res-menu{
+        width: 70%;
+    }
+    .nav-buttons{
+        width: 70%;
+        margin-left: auto;
+    }
+    .search form input{
+        width: 80%;
+    }
+    .search{
+        height: 8vh;
+    }
+    // Footer
+    .footer-child{
+        display: block;
+    }
+    .footer-limited{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-logos{
+        width: 70%;
+        margin: 0 auto;  
+    }
+}
+@media only screen and(max-width:414px){
+    // Slider
+    .create-post{
+        width: 85%;
+        left: 7.5%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .all-question-one-card{
+        display: block;
+    }
+    .all-question-crad-detail{
+        width: 100%;
+    }
+    .vating-part{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .vating-part span{
+        display: flex;
+    }
+}
+// Small Scree less 392
+@media only screen and(max-width:392px){
+    // Signup-page
+    .signup-main-container{
+        width: 80%;
+    }
+    // Contact Us Page
+    .logo{
+        width: 30%;
+    }
+    .res-menu{
+        width: 70%;
+    }
+    .nav-buttons{
+        width: 80%;
+        margin-left: auto;
+    }
+    .nav-toggle{
+        width: 4%;
+    }
+    // Post Question
+    .post-question-content{
+        width: 74%;
+    }
+}
+@media only screen and(max-width:340px){
+    // Login Page
+    .login-container{
+        width: 80%;
+    }
+    .login-input{
+        width: 94.5%;
+    }
+    .nav-buttons{
+        width: 90%;
+    }
+    // Footer
+    .footer-limited{
+        width: 100%;
+    }
+    // Post Question
+    .post-question-content{
+        width: 70%;
+    }
+    .post-question-content input{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+// Extra Signup
+@media only screen and(max-width:308px){
+    .signup{
+        display: none;
+    }
+    .login{
+        background-color: $primary-color;
+        border-radius:4px;
+        color: white;
+        margin-left: 25px;
+    }
+.extra-signup{
+    display: block;
+}
+}
