@@ -1,0 +1,246 @@
+@import "variables.scss";
+@import "navigation.scss";
+// Media Query
+// ---------------------------Div Ends-----------------
+// --------------------------- Mian Section Start-----------------
+.main-section{
+    width: 75%;
+    margin: 0 auto;
+    padding-right: 13px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.top-rated{
+    width: 20%;
+}
+.top-questions{
+    width: 55%;
+}
+.suggest-problems{
+    width: 20%;
+}
+// Slider
+#create-post-id{
+    display: none;
+}
+.create-post{
+    width: 35%;
+    background-color: $primary-color;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    // display: none;
+    position: absolute;
+    z-index: 1;
+    left: 32.5%;
+    top: 25vh;
+}
+.create-post-heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+.create-post-heading h3{
+    margin: 0;
+    color: white;
+}
+.create-post-heading i{
+    color: white;
+    cursor: pointer;
+}
+.main-form-holder{
+    background-color: $primary-color;
+}
+.text-field{
+    height: 250px;
+    border-radius: 5px;
+}
+.text-field textarea{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    padding-left: 10px;
+}
+.text-field textarea:focus{
+    outline: none;
+}
+.button{
+    width: 100%;
+    margin: 0 auto;
+    background-color: $primary-color;
+}
+button{
+    background-color: $primary-color;
+    border: none;
+    border-radius:4px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+    float: right;
+    width: 100%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+// --------------------------- Top Respondednt Start ---------------
+@import "top-informant-child.scss";
+// --------------------------- Post Question Start -----------------
+.post-question{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 12px;
+    padding: 5px 5px;
+}
+.profile-question{
+    width: 50px;
+    height: 50px;
+}
+.question-profile{
+    width: 100%;
+    height: 100%;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+}
+.post-question-content{
+    cursor: pointer;
+    width: 78%;
+    height: 100%;
+    background-color: $body-background;
+    align-self: center;
+    padding: 0px 2%;
+    border: 0.5px solid $border-color;
+    border-radius: 50px;
+}
+.post-question-content input{
+    border: none !important;
+    cursor: pointer !important;
+    border-color: transparent !important;
+    background-color: $body-background;
+    width: 100%;
+    outline: none; 
+    padding: 10px 0;
+}
+
+// --------------------------- Post Question Ends -----------------
+
+// --------------------------- Top Question Starts -----------------
+.question{
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.qu-person-detail{
+    margin-top: 10px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+.que-profile{
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+}
+.que-profile img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid $border-color;
+    border-radius: 50%; 
+}
+.qu-name{
+    width: 78%;
+    padding-top: 10px;
+    margin: 15px 15px;
+    color: $my-text-color;
+}
+.qu-name a,span{
+    text-decoration: none;
+    color: $my-text-color;    
+}
+.question-content{
+    margin: 15px auto;
+    text-align: justify;
+    width: 95%;
+    font-size: 25px;
+    color: $my-text-color;
+}
+.respond{
+    width: 95%;
+    margin: 15px auto;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    color: inherit;
+}
+// --------------------------------- Uploaded Answer -----------------------------
+.uploaded-answer{
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 92%;
+    margin: 0 auto;
+    color: $my-text-color;  
+}
+.uploaded-answer a{
+    text-decoration: none;
+    color: $my-text-color;
+}
+.answer{
+    cursor: pointer;
+}
+#panel{
+    display: none;
+}
+.answer-text{
+    margin-top: 2px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+// --------------------------------Write Answer------------------------------------
+.write-answer{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+}
+.write-answer form{
+    display: flex;
+    justify-content: space-evenly;
+}
+.write-answer form input{
+    width: 90%;
+    outline: none;
+    padding: 13px 0;
+    border: none !important;
+    border-color: transparent !important;
+}
+.answer-submit{
+    align-self: center;
+    font-size: 25px;
+    color: $my-text-color;
+}
+// ------------------------------Right Suggestions-----------------------------
+.suggested-container{
+    position: fixed;
+    width: 100%;
+    width: 14%;
+    margin-left: 15px;
+    border-radius: 5px;
+    padding: 0 5px;
+    background: url(../images/cart-3.jpg);
+    height: 65vh;
+}
+.my-add{
+    height:65vh;
+}
+@import "footer.scss";
+@import "media-quries.scss";

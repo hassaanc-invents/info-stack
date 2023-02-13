@@ -1,0 +1,29 @@
+@import "variables.scss";
+// -------------------------------Footer Start--------------------------------
+footer{
+    background-color: white;
+    position: sticky;
+    color: $my-text-color;
+}
+.footer-child{
+    width: 80%;
+    
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-limited{
+    width: 35%;
+}
+.footer-logos{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.my-footer-border{
+    border: 1px solid $border-color;
+    background-color: white;
+}
